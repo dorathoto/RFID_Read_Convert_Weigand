@@ -2,6 +2,7 @@
 # Convert Tag intelbras e outras para Weigand
 
 **Desenvolvido em:** C# .Net 8
+
 **Para fazer build:** Precisa do SDK .net 8 https://dotnet.microsoft.com/pt-br/download/dotnet/8.0
 executar
 
