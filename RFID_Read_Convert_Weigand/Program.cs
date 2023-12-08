@@ -4,7 +4,6 @@
     string input = Console.ReadLine();
 
 
-
     if (int.TryParse(input, out int valorIntelbras))
     {
         var valorWeigand = ConverteParaWeigand(valorIntelbras);
