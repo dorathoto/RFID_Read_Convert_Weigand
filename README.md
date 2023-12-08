@@ -13,5 +13,7 @@ Ou abrir, visual studio e apertar F5
 Printscreen
 ![PrintScreen](https://raw.githubusercontent.com/dorathoto/RFID_Read_Convert_Weigand/stage/RFID_Read_Convert_Weigand/printscreen.jpg)
 
-**Release**
+## Release
+
 Puxar e executar o release, se precisar instalar o .net 8 runtime
+https://github.com/dorathoto/RFID_Read_Convert_Weigand/releases/tag/publish
