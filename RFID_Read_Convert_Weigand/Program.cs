@@ -1,4 +1,7 @@
-﻿while (true)
+﻿using RFID_Read_Convert_Weigand;
+
+
+while (true)
 {
     Console.Write("Digite o valor decimal da Intelbras.: ");
     string input = Console.ReadLine();
@@ -7,6 +10,7 @@
     if (int.TryParse(input, out int valorIntelbras))
     {
         var valorWeigand = ConverteParaWeigand(valorIntelbras);
+        Clipboard.SetByPowershell(valorWeigand);
         Console.WriteLine($"O valor Weigand correspondente é: {valorWeigand}");
         Console.WriteLine("------------------------------------------");
     }
